@@ -2,5 +2,6 @@
 
 <ul>
   <% Task.all.each do |task| %>
-  <li><%= task.title %> <%= task.details %> <%= task.boolean %></li>
+    <li><%= task.title %> <%= task.details %> <%= task.boolean %></li>
+  <% end %>
 </ul>
