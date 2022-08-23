@@ -1,0 +1,6 @@
+<h1>Create new Task</h1>
+<%= form_with model: @restaurant do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :details %>
+  <%= f.submit %>
+<% end %>
