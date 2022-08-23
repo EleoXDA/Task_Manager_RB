@@ -1,4 +1,6 @@
 <p><%= @task.title&.capitalize %></p>
 <p><%= @task.details&.capitalize %></p>
 <p><%= @task.completed %></p>
+<%= link_to "Edit Task", edit_task_path %>
+
 <%= link_to 'Back', tasks_path %>
